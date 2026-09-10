@@ -1,0 +1,23 @@
+{
+  "organ": "branch",
+  "images_in_selection": 39,
+  "classes": {
+    "Albizia julibrissin": 3,
+    "Flowering cherry": 3,
+    "Ginkgo biloba": 3,
+    "Koelreuteria paniculata": 3,
+    "Lagerstroemia indica": 3,
+    "Liriodendron chinense": 3,
+    "Magnolia liliflora Desr": 3,
+    "Platanus": 3,
+    "Prunus cerasifera f. atropurpurea": 3,
+    "Salix babylonica": 3,
+    "Styphnolobium japonicum": 3,
+    "Triadica sebifera": 3,
+    "Zelkova serrata": 3
+  },
+  "downloaded_bytes": 39654020,
+  "failures": [],
+  "source_index_images": 1485,
+  "per_class_requested": 3
+}

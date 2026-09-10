@@ -1,0 +1,4 @@
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import { Globe2, Menu, Sprout, X } from 'lucide-react';
+export default function Navbar(){const{pathname}=useLocation();const[open,setOpen]=useState(false);const items=[['/','Bosh sahifa'],['/scan','Scan qilish'],['/trees','Daraxtlar'],['/stats','Statistika']];return <nav className="site-nav"><div className="nav-shell"><Link to="/" className="brand"><Sprout/><div><strong>Daraxtlarni asrab qolaylik</strong><span>Yashil kelajak uchun birga</span></div></Link><button className="menu-button" onClick={()=>setOpen(!open)} aria-label="Menyuni ochish">{open?<X/>:<Menu/>}</button><div className={`nav-links ${open?'open':''}`}>{items.map(([p,l])=><Link key={p} className={pathname===p?'active':''} to={p} onClick={()=>setOpen(false)}>{l}</Link>)}</div><div className="nav-tools"><span><Globe2/> UZ</span><Link to="/scan">Kirish</Link></div></div></nav>}

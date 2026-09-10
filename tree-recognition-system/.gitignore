@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Database
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Data
+data/uploads/*
+!data/uploads/.gitkeep
+data/database/*.db
+data/models/*.pth
+data/models/*.pt
+data/models/*.h5
+data/models/*.pb
+
+# Public image corpora stay local; manifests and provenance remain reviewable.
+data/datasets/images/
+data/datasets/sources/**/*.zip
+data/datasets/sources/**/*.part
+data/datasets/sources/**/file_index.json
+
+# Node (Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary
+*.tmp
+*.temp
+temp/
+tmp/
