@@ -1,10 +1,10 @@
-# 🌳 Daraxt Taniqlash Tizimi / Tree Recognition System
+# Tree Recognition System
 
 AI yordamida daraxtlarni tanib olish va kuzatish tizimi. Deep learning texnologiyasi yordamida daraxtlarni rasm orqali tanish va vaqt bo'yicha o'zgarishlarini kuzatish.
 
 Tree recognition and monitoring system using AI. Identify trees from images using deep learning and track changes over time.
 
-## 📁 Loyiha Strukturasi / Project Structure
+## Loyiha Strukturasi / Project Structure
 
 ```
 tree-recognition-system/
@@ -28,7 +28,7 @@ tree-recognition-system/
 └── notebooks/             # Training uchun notebooklar
 ```
 
-## 🚀 O'rnatish / Installation
+## O'rnatish / Installation
 
 ### Backend O'rnatish
 
@@ -89,7 +89,7 @@ Frontend `http://localhost:3000` da ochiladi.
 npm run build
 ```
 
-## 📖 Foydalanish / Usage
+##  Foydalanish / Usage
 
 ### API Endpoints
 
@@ -167,7 +167,7 @@ DB_CONNECTION_STRING=postgresql://user:password@localhost:5432/trees
 
 Schema avtomatik yaratiladi.
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 Sistema ResNet50 modelidan foydalanadi feature extraction uchun.
 
@@ -179,42 +179,3 @@ Training uchun `notebooks/` papkasida Jupyter notebooklar yaratish mumkin.
 
 - Feature Extractor: `data/models/feature_extractor.h5`
 - Tree Classifier: `data/models/tree_classifier.h5`
-
-## 📊 Xususiyatlar / Features
-
-- ✅ AI yordamida daraxt taniqlash
-- ✅ Rasm orqali tez tanish
-- ✅ Vaqt bo'yicha kuzatish
-- ✅ Duplikat aniqlash
-- ✅ Ma'lumotlar bazasida saqlash
-- ✅ REST API
-- ✅ Modern React frontend
-- ✅ Responsive dizayn
-
-## 🛠️ Texnologiyalar / Technologies
-
-### Backend
-- Python 3.8+
-- Flask
-- TensorFlow/Keras
-- SQLite/PostgreSQL
-- OpenCV
-- NumPy, SciPy
-
-### Frontend
-- React 18
-- Vite
-- Axios
-- React Router
-
-## 📝 License
-
-MIT License
-
-## 👥 Muallif / Author
-
-Tree Recognition System
-
-## 🤝 Yordam / Support
-
-Muammo bo'lsa issue oching yoki pull request yuboring.
